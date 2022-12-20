@@ -5,9 +5,9 @@ public class Eupatrida extends Cidadao {
 	
 	public int soma() {
 		if(getProxima()!=null){
-			return 1+getProxima().soma();
+			return 2+getProxima().soma();
 		}else {
-			return 1;
+			return 2;
 		} 
 	}
 
